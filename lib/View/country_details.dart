@@ -37,9 +37,9 @@ class _CountryDetailScreenState extends State<CountryDetailScreen> {
           children: [
             Image(
               image: NetworkImage(widget.flag),
-              width: 100,
+              width: 140,
               height: 80,
-              fit: BoxFit.fitHeight,
+              fit: BoxFit.cover,
             ),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.05,

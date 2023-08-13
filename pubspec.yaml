@@ -40,6 +40,12 @@ dependencies:
   pie_chart: ^5.1.0
   flutter_spinkit: ^5.2.0
   shimmer: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
 
 dev_dependencies:
   flutter_test:
